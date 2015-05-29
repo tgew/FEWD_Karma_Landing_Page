@@ -427,5 +427,10 @@ th {
 }
 
 body {
-    background-color: burlywood;
+    background-color: lightgray;
 }
+
+div {
+    border: 1px solid chocolate;
+}
+
