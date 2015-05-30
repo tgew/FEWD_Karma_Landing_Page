@@ -434,3 +434,13 @@ div {
     border: 1px solid chocolate;
 }
 
+header > ul > li {
+    display: inline;
+}
+
+footer > ul >li {
+    display: inline;
+}
+
+
+
