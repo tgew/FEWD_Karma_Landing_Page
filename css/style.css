@@ -427,7 +427,7 @@ th {
 }
 
 body {
-    background-color: lightgray;
+    background-color: white;
 }
 
 div {
@@ -458,14 +458,20 @@ header, footer, .top_row, .second_row {
     margin-right: auto;
 }
 
-footer, .top_row, .second_row {
+footer, .second_row {
     text-align: center;
 }
 
 .top_row {
+    color: white;
     background-image: url(dave_sailing.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 40em;
     max-width: none;
+    
+}
+
+.top-row > button {
+    color: black;
 }
