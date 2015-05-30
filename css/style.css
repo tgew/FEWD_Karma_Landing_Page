@@ -428,16 +428,20 @@ th {
 
 body {
     background-color: white;
-}
-
-div {
-    border: 1px solid chocolate;
+    font-family: 'Lato', sans-serif;
+    font-weight: 100;
 }
 
 header > ul > li {
     display: inline;
     float:right;
-    padding: 0 0.5em 0 0.5em;
+    padding: 1.25em 0.8em 0 0.8em;
+    color: darkgrey;
+}
+
+header > ul > li.main_li {
+    font-weight: 400;
+    color:black;align-content: 
 }
 
 header > ul {
@@ -474,12 +478,29 @@ footer, .second_row {
 }
 
 .top_row .intro_text {
-    padding: 3em 0 0.01em 0;
-    font-size: 3em;
+    padding: 3em 0 0 0;
+    font-size: 2em;
 }
 
 button {
     background-color: darkorange;
     color: white;
     padding: 1em 2em 1em 2em;
+}
+
+.second_row {
+    padding: 4em 0 4em 0;
+}
+
+.second_row {
+    font-size: 1.3em;
+}
+
+footer {
+    border-top: solid thin lightgray;
+    padding-top: 1em;
+}
+
+footer > .copyright {
+    color: lightgray;
 }
