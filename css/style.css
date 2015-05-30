@@ -436,20 +436,17 @@ div {
 
 header > ul > li {
     display: inline;
+    float:right;
+    padding: 0 0.5em 0 0.5em;
 }
 
-header > img {
-    
+header > ul {
+    display: inline;
 }
 
 footer > ul >li {
     display: inline;
 }
-
-.top_row {
-    min-height: 40em;
-}
-
 
 .second_row > ul > li {
     display: inline-block;
@@ -469,4 +466,6 @@ footer, .top_row, .second_row {
     background-image: url(dave_sailing.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    min-height: 40em;
+    max-width: none;
 }
