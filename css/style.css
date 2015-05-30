@@ -442,6 +442,10 @@ footer > ul >li {
     display: inline;
 }
 
+.second_row > ul > li {
+    display: inline;
+}
+
 header, footer, .top_row, .second_row {
     max-width: 40em;
     margin-left: auto;
