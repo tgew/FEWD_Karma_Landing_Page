@@ -438,23 +438,35 @@ header > ul > li {
     display: inline;
 }
 
+header > img {
+    
+}
+
 footer > ul >li {
     display: inline;
 }
 
+.top_row {
+    min-height: 40em;
+}
+
+
 .second_row > ul > li {
-    display: inline;
+    display: inline-block;
 }
 
 header, footer, .top_row, .second_row {
-    max-width: 40em;
+    max-width: 50em;
     margin-left: auto;
     margin-right: auto;
+}
+
+footer, .top_row, .second_row {
     text-align: center;
 }
 
 .top_row {
-    background-image: url(https://www.flickr.com/gp/tgew/Z6T2J0);
+    background-image: url(dave_sailing.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
