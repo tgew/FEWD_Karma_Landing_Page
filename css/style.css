@@ -442,5 +442,15 @@ footer > ul >li {
     display: inline;
 }
 
+header, footer, .top_row, .second_row {
+    max-width: 40em;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
 
-
+.top_row {
+    background-image: url(https://www.flickr.com/gp/tgew/Z6T2J0);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
