@@ -488,6 +488,10 @@ button {
     font-size: 1.3em;
 }
 
+.icons {
+    display: flex;
+}
+
 footer {
     border-top: solid thin lightgray;
     padding-top: 1em;
