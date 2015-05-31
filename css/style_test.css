@@ -1,0 +1,45 @@
+header {
+    min-height: 10em;
+    text-align: center;
+    z-index: 2;
+    width: 100%;
+    position: fixed;
+    background-color: white;
+    top: 0px;
+}
+
+container {
+    position:relative;
+    width: 100%;
+    display: block;
+}
+
+section {
+    background-image: url(dave_sailing.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color:azure;
+    min-height: 50em;
+    float: left;
+    position: relative;
+    top: 10em;
+    padding: 5em;
+    width:100%;
+}
+
+section > div {
+    max-width:20em;
+    margin-left: auto;
+    margin-right: auto;    
+}
+
+
+footer {
+/*    visibility: hidden;*/
+    min-height: 5em;
+    text-align: center;
+    color:darkgrey;
+    position: relative;
+    
+}

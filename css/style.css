@@ -435,6 +435,8 @@ header {
     position:fixed;
     min-height: 5em;
     display: inline-block;
+    background-color: white;
+    width:100%;
 }
 
 header > ul > li {
