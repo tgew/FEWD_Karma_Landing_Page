@@ -438,6 +438,10 @@ header {
     width:100%;
 }
 
+header > ul {
+    display: inline;
+}
+
 header > ul > li {
     display: inline;
     float:right;
@@ -447,15 +451,7 @@ header > ul > li {
 
 header > ul > li.main_li {
     font-weight: 400;
-    color:black;align-content: 
-}
-
-header > ul {
-    display: inline;
-}
-
-footer > ul >li {
-    display: inline;
+    color:black;
 }
 
 .second_row > ul > li {
@@ -489,9 +485,6 @@ button {
 
 .second_row {
     padding: 4em 0 4em 0;
-}
-
-.second_row {
     font-size: 1.3em;
 }
 
@@ -500,6 +493,11 @@ footer {
     padding-top: 1em;
 }
 
+footer > ul >li {
+    display: inline;
+}
+
 footer > .copyright {
     color: lightgray;
 }
+
