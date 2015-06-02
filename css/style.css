@@ -479,9 +479,10 @@ footer, .second_row {
 
 .top_row {
     color: white;
-    background-image: url(dave_sailing.jpg);
+    background-image: url(../images/dave_sailing.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: top;
     min-height: 40em;
     max-width: none;
     text-align: center;
@@ -493,9 +494,17 @@ footer, .second_row {
 }
 
 button {
-    background-color: darkorange;
+    background-color: orange;
     color: white;
+    font-weight: 400;
     padding: 1em 2em 1em 2em;
+    text-shadow: none;
+    border-style: none;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: darkorange;
 }
 
 .second_row {
