@@ -430,6 +430,7 @@ body {
     background-color: white;
     font-family: 'Lato', sans-serif;
     font-weight: 100;
+    box-sizing: border-box; /* Added this after reading about box-sizing on CSS Tricks.  Doesn't seem to do anything in this code.  Is it the default behavior? */
 }
 header {
     position:fixed;
