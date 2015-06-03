@@ -519,17 +519,26 @@ button:hover {
 }
 
 footer {
-    border-top: solid thin lightgray;
+/*    border-top: solid thin lightgray;*/
     padding-top: 1em;
 }
 
-footer ul {
-    margin: 0;
-    padding: 0;
+.footer_icons {
+    max-width: 7.5em;
+    margin-left: auto;
+    margin-right: auto;
+    display:flex;
+    justify-content: space-around;
+    color:dodgerblue;
+
 }
 
-footer > ul >li {
-    display: inline;
+.footer_icons > i {
+    width: .7em;
+    border: 1px solid darkgray;
+    border-radius: 100%;
+    padding: .5em;
+/*    margin: 1em;*/
 }
 
 footer > .copyright {
